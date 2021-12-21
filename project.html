@@ -1,0 +1,332 @@
+<!doctype html>
+<html>
+<head>
+    <title>Wild Store| e-commerce website design</title>
+   
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+</head>
+<style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .navbar{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+    }
+      
+    nav{
+        flex: 1;
+        text-align:right ;
+    }
+    nav ul{
+        display: inline block;
+        list-style-type: none;
+    }
+    nav ul li{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    a{
+        text-decoration:underline;
+        color: rgb(55, 43, 226);
+    }
+    p{
+        color: black;
+    }
+    .container{
+        max-width: 1300px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .row{
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .col-2{
+        flex-basis: 50%;
+        min-width: 500px;
+    }
+    .col-2 img{
+        max-width: 100%;
+        padding: 50px 0;
+        height: 500px;
+        width: 500px;
+    }
+    .col-2 h1{
+        font-size: 50px;
+        line-height: 60px;
+        margin: 25px 0;
+
+    }
+    .btn{
+        display: inline-block;
+        background: crimson;
+        color: white;
+        padding: 8px 30px;
+        margin: 30px 0;
+        border-radius: 30px;
+        transition: background 0.5s;
+    }
+    .btn:hover{
+        background: rgb(173, 167, 167);
+    }
+    .header{
+        background: radial-gradient(rgb(173, 167, 167),#726b6b);
+    }
+    .header .row{
+        margin-top: 70px;
+    }
+    .categories{
+        margin: 70px 0;
+    }
+    .col-3{
+        
+        display: flex;
+        justify-self: center;
+    }
+    .col-3 img{
+        
+        margin-left: 5px;
+        margin-right: 5px;
+        
+    }
+    .small-container{
+        max-width: 1080px;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .col-4{
+        flex-basis: 25%;
+        padding: 10px;
+        min-width: 200px;
+        margin-bottom: 50px;
+    }
+    
+    
+    .col-4 img{
+        width: 100%;
+    }
+    
+    .title{
+        text-align:center ;
+        margin: 0 auto 80px;
+        position: relative;
+        line-height: 60px;
+        color: black;
+    }
+    .title::after{
+        content: '';
+        background: brown;
+        width: 80px;
+        height: 5px;
+        border-radius: 5px;
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform:translateX(-50%)
+
+    }
+    h4{
+        color: rgb(5, 19, 46);
+        font-weight: normal;
+
+    }
+    .col-4 p{
+        font-size: 14px;
+    }
+    .rating .fa{
+        color: darkgoldenrod;
+    }
+    .col-4 :hover{
+        transform: translateY(-5px);
+    }
+    .review{
+        text-align:center ;
+        text-decoration-style: solid;
+        color: chocolate;
+    }
+    .col-5{
+        padding-top: 5px;
+        text-align:left ;
+    }
+    .footer {
+  text-align: left;
+  padding: 3px;
+  background-color: rgb(240, 64, 11);
+  color: rgb(196, 10, 10);
+}
+.contact{
+    text-decoration: rgb(241, 10, 153);
+    
+}
+.backtotop{
+    text-decoration: solid;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid yellowgreen;
+}
+    
+  </style>
+<body>
+    <a name="top"></a>
+    <div class="header">
+    <div class="container">
+    <div class="navbar">
+    <div class="logo">
+     <img src="images/WILD STORE.jpg" width="125px">
+    </div>
+
+ <nav>  
+<ul>
+    <li><a href="">Home</a></li>
+    <li><a href="">products</a></li>
+    <li><a href="">About</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Account</a></li>
+    <li><a  href="https://www.google.com/covid19/">covid19</a></li>
+    </ul>
+</nav> 
+<img src="images/cart.png" alt="" width="30px" height="30px">
+</div>
+<div class="row">
+    <div class="col-2">
+        <h1>Elegance is an attitude</h1>
+        <p>Unique, imperious design never goes out of fashion.Introducing our best with you , Citizen. Beyond exactness.</p>
+        <a href="" class="btn">Explore Now &#8594;</a>
+    </div>
+    <div class="col-2">
+        <img src="images/watch.jpg" width="300px">
+    </div>
+</div>
+</div>
+</div>
+</body>
+
+
+--------featured characteristics------------
+
+<div class="categories">
+    <div class="row">
+        <div class="col-3">
+            <img src="images/category 1.jpg" alt="">
+            <div class="col-3">
+                <img src="images/category 2.jpg" alt="">
+                <div class="col-3">
+                    <img src="images/category 3.jpg" alt="">
+
+                </div>
+
+        </div>
+    </div>
+            
+
+        
+    </div>
+</div>
+
+--------featured products------------
+<div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+        <div class="col-4">
+            <img src="images/product 1.webp">
+            <h4>Men Analogue Watch</h4>
+            <div class="rating">
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o" aria-hidden="true"></i>
+                <p>&#8377 799 </p>
+            </div>
+            </div>
+            <div class="col-4">
+                <img src="images/product-2.jpg">
+                <h4>Men Analogue Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o" aria-hidden="true"></i>
+                    <p>&#8377 685 </p>
+                </div>
+                </div>
+                <div class="col-4">
+                    <img src="images/product-3.jpg">
+                    <h4>Men Analogue Watch</h4>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o" aria-hidden="true"></i>
+                        <p>&#8377 860 </p>
+                    </div>
+                    </div>
+                    <div class="col-4">
+                        <img src="images/product-4.jpg">
+                        <h4>Men Analogue Watch</h4>
+                        <div class="rating">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star-o" aria-hidden="true"></i>
+                            <p>&#8377 599 </p>
+                        </div>
+                        </div>
+                     
+        </div>
+    </div>
+</div>
+----------offer------
+<h3 class="review">Review</h3>
+<div class="offer">
+    <div class="small container">
+        <div class="row">
+            
+            <br/><br/><br/>
+            <div class="col-5">
+                <p>Great watch fantastic service,  and a quick and smooth overseas shipping. Many thanks
+                    
+                    
+                </p>
+                <br/><br/><br/>
+            </div>
+            <div class="col-5">
+                <p>Everything was great!!! I was very pleased with the way the whole experience went shopping with wild store. I would highly recommend you to anyone...
+                    
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+----------------footer--
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+               <p class="contact"><a href="">contact us</a></p> <br/>
+               <p><a href="">About us</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+<br/><br/>
+<div class="backtotop">
+<a href="#top">Back to top</a>
+</div>
+</body>
+</html>
